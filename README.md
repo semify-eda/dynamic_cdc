@@ -1,6 +1,6 @@
 # Dynamic CDC Metastability Injection Model
 
-This repository provides an open-source SystemVerilog model for simulating [metastability](https://en.wikipedia.org/wiki/Metastability_(electronics)) designs containing Clock Domain Crossings (CDCs). The primary goal is to dynamically verify the validity of the design's synchronization schemes by injecting realistic metastability events during simulation.
+This repository provides an open-source SystemVerilog model for simulating [metastability](https://en.wikipedia.org/wiki/Metastability_(electronics)) in designs containing Clock Domain Crossings (CDCs). The primary goal is to dynamically verify the validity of the design's synchronization schemes by injecting realistic metastability events during simulation.
 
 The model is implemented with flexibility, scalabilitity, and performance in mind; it has minimal impact on simulation time and can be configured without recompilation, making it suitable for large designs.
 
