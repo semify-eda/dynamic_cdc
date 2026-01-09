@@ -6,7 +6,7 @@ GLOBAL_METASTABILITY_ENABLE 		:=0
 METASTABILITY_HIERARCHY_TOGGLE 	:=TOP.*
 
 SV_RNG_SEED := 883
-TOP_TB := testbench
+TOP_TB := fsm_tb
 
 TIMESCALE:=--timescale 1ns/1ps
 
